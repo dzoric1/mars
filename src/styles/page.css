@@ -5,4 +5,5 @@
   font-family: "Montserrat", Arial, sans-serif;
   box-sizing: border-box;
   padding: 0 120px;
+  min-height: 100%;
 }

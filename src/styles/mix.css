@@ -1,0 +1,12 @@
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button-reset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}

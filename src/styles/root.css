@@ -5,6 +5,11 @@
   -moz-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("../assets/images/background.jpg") center;
+  background: url("../assets/images/background.jpg") center center / cover no-repeat;
   color: var(--sand-color);
+}
+
+html,
+body {
+  height: 100%;
 }
