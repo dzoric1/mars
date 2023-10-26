@@ -5,6 +5,13 @@
   padding-top: 30px;
 }
 
+@media screen and (max-width: 1199px) {
+  .header {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
 .header__logo {
   width: 82px;
   object-fit: cover;
@@ -14,6 +21,13 @@
   display: flex;
   align-items: center;
   gap: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+  .header__nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .header__nav-link {
@@ -40,6 +54,12 @@
   font-weight: 600;
   text-transform: uppercase;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1199px) {
+  .header__nav-button {
+    margin-left: 0;
+  }
 }
 
 .header__nav-button:hover {

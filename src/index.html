@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>MARS</title>
 </head>
 
 <body class="root">
@@ -38,7 +38,6 @@
     <main class="main">
       <section class="main__hero hero">
         <h1 class="hero__subtitle text-reset">Точка назначения:</h1>
-        <!-- <img class="hero__title" src="<%=require('./assets/images/title.svg')%>" alt="Заголовок МАРС"> -->
         <svg width="1147" height="513" class="clip-path-svg">
           <clipPath id="my-clip-path" clipPathUnits="objectBoundingBox">
             <path
@@ -50,6 +49,43 @@
       </section>
     </main>
   </div>
+
+  <div class="main__popup popup">
+    <div class="popup__container">
+      <button class="popup__close-btn button-reset"><span></span></button>
+      <h2 class="popup__title text-reset">Бронирование билетов</h2>
+      <form class="popup__form">
+        <div class="popup__form-inputs">
+          <label class="popup__form-label">
+            <span>Дата заезда</span>
+            <input class="popup__form-input popup__form-input_type_date" type="date" name="arrival-date" required>
+          </label>
+
+          <label class="popup__form-label">
+            <span>Дата выезда</span>
+            <input class="popup__form-input popup__form-input_type_date" type="date" id="departure-date"
+              name="departure-date" required>
+          </label>
+
+          <label class="popup__form-label">
+            <span>Количество</span>
+            <select class="popup__form-input popup__form-input_type_select" name="count-people" required>
+              <option value="1">1 человек</option>
+              <option value="2">2 человека</option>
+              <option value="3">3 человека</option>
+              <option value="4">4 человека</option>
+              <option value="5">5 человек</option>
+              <option value="6">6 человек</option>
+              <option value="7">7 человек</option>
+              <option value="8">8 человек</option>
+            </select>
+          </label>
+        </div>
+        <button class="popup__submit button-reset" type="submit">Купить билеты</button>
+      </form>
+    </div>
+  </div>
+
 </body>
 
 </html>

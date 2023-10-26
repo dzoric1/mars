@@ -6,7 +6,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url("../assets/images/background.jpg") center center / cover no-repeat;
-  color: var(--sand-color);
+  font-family: "Montserrat", Arial, sans-serif;
+  color: var(--black-color);
 }
 
 html,
