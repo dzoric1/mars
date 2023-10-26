@@ -1,0 +1,8 @@
+.page {
+  min-width: 320px;
+  max-width: calc(1200px + 120px * 2);
+  margin: 0 auto;
+  font-family: "Montserrat", Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 0 120px;
+}
