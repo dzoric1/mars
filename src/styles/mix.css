@@ -10,3 +10,8 @@
   border: none;
   box-sizing: border-box;
 }
+
+.text-reset {
+  margin: 0;
+  padding: 0;
+}
