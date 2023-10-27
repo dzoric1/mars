@@ -1,0 +1,22 @@
+.background {
+  background: url("../assets/images/background.jpg") center center / cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  margin: 0 auto;
+  height: 100%;
+  width: 120%;
+  transition: transform 0.5s ease;
+}
+
+.smoke {
+  background: url("../assets/images/smoke.svg") center center / cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 200%;
+  transition: transform 0.5s ease;
+  opacity: 0.5;
+}
